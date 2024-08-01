@@ -54,36 +54,70 @@ a {
     border: none;
     font-family:"Inter";
     border-radius: 8px;
-    margin-left: 260px;
+    margin-left: 340px;
     cursor: pointer;
 }
-/* Here the navbar ends */
 
 /* the span */
-
 .contant {
-    width: 1171px;
-    height: 544px;
-    background-color: #473BF0;
+    /* background-color: #473BF0; */
     margin-left: 244px;
     margin-top: 141px;
+    display: flex;
+    align-items: center;
 }
 
 .text {
-    width: 541px;
+    width: 555px;
     height: 386px;
-    background-color: antiquewhite;
+    /* background-color: antiquewhite; */
     display: inline-block;
-    margin-bottom: 60px;
-    /* margin-right: 5px; */
+    margin-right: 76px;
+}
+
+.line1 {
+    color: #F64B4B;
+    font-weight: bold;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin: 0%;
+    margin-bottom: 15.72px;
+}
+
+.line2 {
+    color: #161C2D;
+    font-weight: bold;
+    font-size: 60px;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.line3 {
+    color: #595f6a;
+    font-weight: 400px;
+    font-size: 19px;
+    line-height: 32px;
+    margin: 0;
+    margin-bottom: 33px;
+}
+
+.line4 {
+    width: 209px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 17px;
+    color: white;
+    background-color: #473BF0;
+    border: none;
+    font-family:"Inter";
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 .pic {
     width: 463px;
     height: 504px;
-    background-color: aquamarine;
-    display: inline-block;
-    margin-top: 20px;
 }
 
 /* Here begins the contant */
