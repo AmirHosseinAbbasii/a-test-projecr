@@ -85,3 +85,26 @@ a {
     display: inline-block;
     margin-top: 20px;
 }
+
+/* Here begins the contant */
+.section1 {
+    width: 1163px;
+    height: 752px;
+    background-color: #473BF0;
+    margin-left: 245px; 
+    margin-top: 250px;
+}
+
+.information {
+    background-color: aquamarine;
+}
+
+.jobs {
+    width: 350px;
+    height: 483px;
+    background-color: antiquewhite;
+    display: inline-block;
+    margin-right: 31px;
+    margin-top: 133px;
+    border-radius: 8px;
+}
