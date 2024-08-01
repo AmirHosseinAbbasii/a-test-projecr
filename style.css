@@ -54,80 +54,34 @@ a {
     border: none;
     font-family:"Inter";
     border-radius: 8px;
-    margin-left: 358px;
+    margin-left: 260px;
     cursor: pointer;
 }
 /* Here the navbar ends */
 
-/* the sections */
+/* the span */
 
-.texts {
-    width: 555px;
-    /* margin-left: 244px; */
-    margin-right: 107px;
-    /* margin-bottom: 20px; */
-    height: auto;
+.contant {
+    width: 1171px;
+    height: 544px;
+    background-color: #473BF0;
+    margin-left: 244px;
+    margin-top: 141px;
+}
+
+.text {
+    width: 541px;
+    height: 386px;
     background-color: antiquewhite;
     display: inline-block;
-
+    margin-bottom: 60px;
+    /* margin-right: 5px; */
 }
 
-.redo {
-    font-weight: 700px;
-    font-size: 13px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    margin: 0px;
-    margin-bottom: 30px;
-    color: #F64B4B;
-    font-weight: bold;
+.pic {
+    width: 463px;
+    height: 504px;
+    background-color: aquamarine;
     display: inline-block;
-}
-
-.blacko {
-    font-weight: 700;
-    font-size: 60px;
-    margin: 0;
-    margin-bottom: 40px;
-    display: inline-block;
-}
-
-.Soilo {
-    font-weight: 400;
-    font-size: 19px;
-    color: #585e6a;
-    margin: 0;
-    margin-bottom: 40px;
-    display: inline-block;
-}
-
-.pics {
-    /* margin-top: 20px; */
-    display: inline-block;
-    /* margin-top: 116px; */
-    background-color: #F64B4B;
-}
-
-.in {
-    line-height: 100px;
-}
-
-.button2 {
-    width: 209px;
-    height: 50px;
-    font-weight: 700;
-    font-size: 17px;
-    color: white;
-    background-color: #473BF0;
-    border: none;
-    font-family:"Inter";
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.coco {
-    margin-left: 244px;
-    margin-top: 95px;
-    /* height: 504px; */
-        background-color: #473BF0;
+    margin-top: 20px;
 }
