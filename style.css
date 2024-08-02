@@ -63,8 +63,10 @@ a {
     /* background-color: #473BF0; */
     margin-left: 244px;
     margin-top: 141px;
+    margin-right: 164px;
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .text {
@@ -121,7 +123,7 @@ a {
 }
 
 /* Here begins the contant */
-.section1 {
+/* .section1 {
     width: 1163px;
     height: 752px;
     background-color: #473BF0;
@@ -131,7 +133,12 @@ a {
 
 .information {
     background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row ;
 }
+
 
 .jobs {
     width: 350px;
@@ -141,4 +148,40 @@ a {
     margin-right: 31px;
     margin-top: 133px;
     border-radius: 8px;
+} */
+
+.gf{
+    background-color: #473BF0;
+    display: flex;
+    font-size: 40px;
+    margin: 40px;
+    
+}
+
+.f1{
+    background-color: antiquewhite;
+}
+
+.f2{
+    background-color: aqua;
+}
+
+.f3{
+    background-color: blueviolet;
+}
+
+.f4{
+    background-color: chartreuse;
+}
+
+.f5 {
+    background-color: brown;
+} 
+
+.f6 {
+    background-color: darkorange;
+}
+
+.f7 {
+    background-color: rgb(228, 104, 156);
 }
