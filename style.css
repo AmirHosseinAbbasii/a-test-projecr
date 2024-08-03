@@ -79,7 +79,7 @@ a {
 
 .line1 {
     color: #F64B4B;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 13px;
     text-transform: uppercase;
     letter-spacing: 1.5px;
@@ -89,7 +89,7 @@ a {
 
 .line2 {
     color: #161C2D;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 60px;
     margin: 0;
     margin-bottom: 30px;
@@ -97,7 +97,7 @@ a {
 
 .line3 {
     color: #595f6a;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 19px;
     line-height: 32px;
     margin: 0;
@@ -122,66 +122,150 @@ a {
     height: 504px;
 }
 
-/* Here begins the contant */
-/* .section1 {
-    width: 1163px;
-    height: 752px;
-    background-color: #473BF0;
-    margin-left: 245px; 
-    margin-top: 250px;
+/* Here begins the sections */
+/* section1 */
+
+.Our-services {
+    margin-top: 117px;
+    margin-left: 245px;
+    margin-right: 192px;
+    background-color: antiquewhite;
 }
 
-.information {
-    background-color: aquamarine;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row ;
+.first-text {
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    /* margin-bottom: 15.72px; */
+    /* margin: 0; */
+    text-align: center;
+    color: #F64B4B;
+    text-transform: uppercase;
 }
 
+.second-text {
+    margin-top: 0;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+}
 
 .jobs {
+    display: flex;
+    align-items: center;
+    background-color: aqua;
+    text-align: center;
+     
+}
+/* ############## */
+
+.Graphic-Design {
     width: 350px;
     height: 483px;
-    background-color: antiquewhite;
-    display: inline-block;
-    margin-right: 31px;
-    margin-top: 133px;
+    background-color: #68D585;
     border-radius: 8px;
-} */
+    cursor: pointer;
+    /* display: flex; */
+}
 
-.gf{
+.GD-img {
+    /* display: inline-block; */
+}
+
+.GD-title {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.GD-text {
+    font-weight: 200;
+    font-size: 17px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.G-button {
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #68D585;
+    cursor: pointer;
+    border: none;
+}
+/* ############## */
+
+.Web-Development {
+    width: 350px;
+    height: 483px;
     background-color: #473BF0;
-    display: flex;
-    font-size: 40px;
-    margin: 40px;
-    
+    border-radius: 8px;
+    cursor: pointer;
 }
 
-.f1{
-    background-color: antiquewhite;
+.WD-img {
+    text-align: center;
 }
 
-.f2{
-    background-color: aqua;
+.WD-title {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
-.f3{
-    background-color: blueviolet;
+.WD-text {
+    font-weight: 200;
+    font-size: 17px;
+    text-align: center;
+    color: #FFFFFF;
 }
 
-.f4{
-    background-color: chartreuse;
+.P-button {
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #473BF0;
+    cursor: pointer;
+    border: none;
+}
+/* ############## */
+
+.Content-Writing {
+    width: 350px;
+    height: 483px;
+    background-color: #F64B4B;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
-.f5 {
-    background-color: brown;
-} 
-
-.f6 {
-    background-color: darkorange;
+.CW-img {
+    text-align: center;
 }
 
-.f7 {
-    background-color: rgb(228, 104, 156);
+.CW-title {
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.CW-text {
+     font-weight: 200;
+     font-size: 17px;
+     text-align: center;
+     color: #FFFFFF;
+}
+
+.R-button {
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #F64B4B;
+    cursor: pointer;
+    border: none;
 }
