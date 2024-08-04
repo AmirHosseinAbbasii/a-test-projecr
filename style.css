@@ -128,8 +128,9 @@ a {
 .Our-services {
     margin-top: 117px;
     margin-left: 245px;
-    margin-right: 192px;
-    background-color: antiquewhite;
+    /* margin-right: 192px; */
+    width: 1163px;
+    /* background-color: antiquewhite; */
 }
 
 .first-text {
@@ -147,14 +148,17 @@ a {
     margin-top: 0;
     font-weight: 700;
     font-size: 36px;
+    margin-bottom: 60px;
     text-align: center;
 }
 
 .jobs {
     display: flex;
     align-items: center;
-    background-color: aqua;
+    /* background-color: aqua; */
     text-align: center;
+    /* justify-content: space-between */
+    justify-content: space-around
      
 }
 /* ############## */
@@ -164,8 +168,10 @@ a {
     height: 483px;
     background-color: #68D585;
     border-radius: 8px;
-    cursor: pointer;
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* cursor: pointer; */
 }
 
 .GD-img {
@@ -189,6 +195,7 @@ a {
 .G-button {
     font-weight: 700;
     font-size: 17px;
+    margin-top: 50px;
     text-align: center;
     color: #FFFFFF;
     background-color: #68D585;
@@ -202,7 +209,10 @@ a {
     height: 483px;
     background-color: #473BF0;
     border-radius: 8px;
-    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* cursor: pointer; */
 }
 
 .WD-img {
@@ -226,6 +236,7 @@ a {
 .P-button {
     font-weight: 700;
     font-size: 17px;
+    margin-top: 50px;
     text-align: center;
     color: #FFFFFF;
     background-color: #473BF0;
@@ -239,7 +250,10 @@ a {
     height: 483px;
     background-color: #F64B4B;
     border-radius: 8px;
-    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* cursor: pointer; */
 }
 
 .CW-img {
@@ -263,6 +277,7 @@ a {
 .R-button {
     font-weight: 700;
     font-size: 17px;
+    margin-top: 50px;
     text-align: center;
     color: #FFFFFF;
     background-color: #F64B4B;
