@@ -123,7 +123,8 @@ a {
 }
 
 /* Here begins the sections */
-/* section1 */
+/* sections*/
+/* Chapter1 */
 
 .Our-services {
     margin-top: 117px;
@@ -145,7 +146,7 @@ a {
 }
 
 .second-text {
-    margin-top: 0;
+    /* margin-top: 0; */
     font-weight: 700;
     font-size: 36px;
     margin-bottom: 60px;
@@ -283,4 +284,61 @@ a {
     background-color: #F64B4B;
     cursor: pointer;
     border: none;
+}
+/* Chapter2 */
+
+.UC-backgrond {
+    width: 1108px;
+    height: 301px;
+    margin-left: 264px;
+    margin-top: 100px;
+    box-shadow: 0 7px 5px -5px #666;
+    /* background-color: antiquewhite; */
+    justify-content: space-evenly
+}
+
+.User-comments {
+    width: 980px;
+    height: 178px;
+    margin-left: 64px;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: space-evenly;
+    /* text-align: center; */
+}
+
+.UC-photo {
+    width: 164px;
+    height: 164px;
+}
+
+.UC-contants {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.UC-text1 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.UC-text2 {
+    display: flex;
+}
+
+.FH {
+    margin-right: 10px;
+}
+
+.FH1 {
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.WD1 {
+    font-weight: 400;
+    font-size: 17px;
+    color: #5b606c;
 }
