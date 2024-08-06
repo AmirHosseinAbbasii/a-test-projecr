@@ -8,6 +8,7 @@ body {
 header {
     /* width: 1600px;
     height: 801px; */
+    background-image:url(./file/pic/header/Bitmap.png);
 
 }
 .logo {
@@ -420,17 +421,3 @@ a {
     font-size: 17px;
     color: #595f6a;
 }
-
-/* .R-statistics {
-
-}
-
-
-.M-statistics {
-    
-}
-
-.L-statistics {
-    display: flex;
-    
-} */
